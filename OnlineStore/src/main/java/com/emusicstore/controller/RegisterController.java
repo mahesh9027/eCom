@@ -19,7 +19,9 @@ import java.util.List;
 @Controller
 public class RegisterController {
 
-    @Autowired
+   // @ 2 commit //
+	
+	@Autowired
     private CustomerService customerService;
 
     @RequestMapping("/register")

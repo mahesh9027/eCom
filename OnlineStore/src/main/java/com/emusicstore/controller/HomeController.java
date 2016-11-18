@@ -22,7 +22,9 @@ public class HomeController {
             String logout,
             Model model){
 
-        if(error != null){
+      
+    	// @ commit ///
+    	if(error != null){
             model.addAttribute("error", "Invalid username and password");
         }
 
